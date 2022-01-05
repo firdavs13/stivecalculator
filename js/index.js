@@ -55,9 +55,10 @@ const servicePrice = function (num) {
   }
 };
 
+  let history = [];
+
 elForm.addEventListener("submit", function (evt) {
   evt.preventDefault();
-  let history = [];
 
   let inputValue = elFormInput.value;
 
